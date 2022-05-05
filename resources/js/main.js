@@ -5,7 +5,7 @@
 
 function showInfo() {
     document.getElementById('info').innerHTML = `
-        ${NL_APPID} is running on port ${NL_PORT}  inside ${NL_OS}
+        ${NL_APPID} is runnsing on port ${NL_PORT}  inside ${NL_OS}
         <br/><br/>
         <span>server: v${NL_VERSION} . client: v${NL_CVERSION}</span>
         `;
